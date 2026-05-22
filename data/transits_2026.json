@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "date": "2026-05-18",
+      "title": "Moon in Virgo",
+      "themes": ["study", "routine", "health", "details"],
+      "meaning": "A Virgo Moon favors careful revision, cleaning up small errors, and turning vague worries into practical next steps."
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Venus harmony theme",
+      "themes": ["relationship", "money", "aesthetics"],
+      "meaning": "Venus themes support gentle repair conversations, taste-based decisions, and noticing what feels genuinely valuable."
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Moon enters Libra",
+      "themes": ["relationship", "balance", "negotiation"],
+      "meaning": "Libra Moon context highlights fairness, social rhythm, and relationship choices that require tact."
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Mercury review window",
+      "themes": ["communication", "study", "documents"],
+      "meaning": "This is a useful symbolic window for reviewing messages, polishing drafts, and checking assumptions before sending."
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Sun into Gemini season",
+      "themes": ["learning", "questions", "conversation"],
+      "meaning": "Gemini season favors curiosity, lighter experiments, comparing ideas, and communicating more flexibly."
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Mars motivation emphasis",
+      "themes": ["action", "energy", "conflict"],
+      "meaning": "Mars context can bring momentum, but the better use is focused action rather than reactive confrontation."
+    },
+    {
+      "date": "2026-05-23",
+      "title": "Weekend integration",
+      "themes": ["reflection", "rest", "planning"],
+      "meaning": "A quieter day for integrating what was learned during the week and choosing one realistic priority."
+    },
+    {
+      "date": "2026-05-24",
+      "title": "Moon planning phase",
+      "themes": ["intention", "organization", "home"],
+      "meaning": "A planning-oriented Moon context supports setting intentions around home, study, and emotional steadiness."
+    }
+  ]
+}

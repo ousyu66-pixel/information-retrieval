@@ -1,0 +1,2 @@
+# AstroRAG uses only the Python standard library.
+# Optional: set OPENAI_API_KEY to call an OpenAI-compatible chat completions API.

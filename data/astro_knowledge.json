@@ -1,0 +1,532 @@
+{
+  "documents": [
+    {
+      "id": "sign_aries",
+      "title": "Aries / 白羊座",
+      "category": "zodiac_sign",
+      "tags": [
+        "aries",
+        "fire",
+        "mars",
+        "initiative",
+        "白羊",
+        "行动"
+      ],
+      "source": "local astrology primer",
+      "text": "Aries is a cardinal fire sign associated with initiative, courage, directness, and fast action. In reflective forecasting, Aries context suggests starting before everything feels perfect, but watching impatience."
+    },
+    {
+      "id": "sign_taurus",
+      "title": "Taurus / 金牛座",
+      "category": "zodiac_sign",
+      "tags": [
+        "taurus",
+        "earth",
+        "venus",
+        "stability",
+        "金牛",
+        "稳定"
+      ],
+      "source": "local astrology primer",
+      "text": "Taurus is a fixed earth sign associated with stability, comfort, material resources, patience, and sensory grounding. Forecasts often frame Taurus themes as slow progress, practical value, and resistance to unnecessary change."
+    },
+    {
+      "id": "sign_gemini",
+      "title": "Gemini / 双子座",
+      "category": "zodiac_sign",
+      "tags": [
+        "gemini",
+        "air",
+        "mercury",
+        "communication",
+        "双子",
+        "沟通"
+      ],
+      "source": "local astrology primer",
+      "text": "Gemini is a mutable air sign associated with curiosity, communication, multiple perspectives, learning, and social movement. A Gemini emphasis favors asking better questions and comparing options before committing."
+    },
+    {
+      "id": "sign_cancer",
+      "title": "Cancer / 巨蟹座",
+      "category": "zodiac_sign",
+      "tags": [
+        "cancer",
+        "water",
+        "moon",
+        "home",
+        "巨蟹",
+        "家庭"
+      ],
+      "source": "local astrology primer",
+      "text": "Cancer is a cardinal water sign linked with emotional safety, home, memory, family, and protective instincts. Forecasts often use Cancer context for belonging, care, and boundaries around emotional labor."
+    },
+    {
+      "id": "sign_leo",
+      "title": "Leo / 狮子座",
+      "category": "zodiac_sign",
+      "tags": [
+        "leo",
+        "fire",
+        "sun",
+        "creativity",
+        "狮子",
+        "自信"
+      ],
+      "source": "local astrology primer",
+      "text": "Leo is a fixed fire sign associated with visibility, pride, creativity, generosity, leadership, and performance. Leo context supports confident self-expression while checking whether attention is being used with warmth."
+    },
+    {
+      "id": "sign_virgo",
+      "title": "Virgo / 处女座",
+      "category": "zodiac_sign",
+      "tags": [
+        "virgo",
+        "earth",
+        "mercury",
+        "analysis",
+        "处女",
+        "细节"
+      ],
+      "source": "local astrology primer",
+      "text": "Virgo is a mutable earth sign associated with analysis, routines, service, craft, health habits, and practical improvement. Virgo forecasts emphasize making systems clearer rather than chasing perfection."
+    },
+    {
+      "id": "sign_libra",
+      "title": "Libra / 天秤座",
+      "category": "zodiac_sign",
+      "tags": [
+        "libra",
+        "air",
+        "venus",
+        "relationship",
+        "天秤",
+        "关系"
+      ],
+      "source": "local astrology primer",
+      "text": "Libra is a cardinal air sign associated with balance, aesthetics, negotiation, fairness, and partnership. Libra context supports relationship reflection, but warns against over-adjusting to keep peace."
+    },
+    {
+      "id": "sign_scorpio",
+      "title": "Scorpio / 天蝎座",
+      "category": "zodiac_sign",
+      "tags": [
+        "scorpio",
+        "water",
+        "mars",
+        "pluto",
+        "depth",
+        "天蝎",
+        "深度"
+      ],
+      "source": "local astrology primer",
+      "text": "Scorpio is a fixed water sign linked with intensity, trust, transformation, secrecy, and emotional depth. Scorpio readings often focus on honest motives, release, and psychological insight."
+    },
+    {
+      "id": "sign_sagittarius",
+      "title": "Sagittarius / 射手座",
+      "category": "zodiac_sign",
+      "tags": [
+        "sagittarius",
+        "fire",
+        "jupiter",
+        "belief",
+        "射手",
+        "远方"
+      ],
+      "source": "local astrology primer",
+      "text": "Sagittarius is a mutable fire sign associated with exploration, belief, travel, philosophy, optimism, and blunt truth. Sagittarius context favors widening the horizon while keeping promises realistic."
+    },
+    {
+      "id": "sign_capricorn",
+      "title": "Capricorn / 摩羯座",
+      "category": "zodiac_sign",
+      "tags": [
+        "capricorn",
+        "earth",
+        "saturn",
+        "career",
+        "摩羯",
+        "事业"
+      ],
+      "source": "local astrology primer",
+      "text": "Capricorn is a cardinal earth sign associated with discipline, ambition, time, structure, responsibility, and public achievement. Capricorn readings emphasize sustainable plans and respect for limits."
+    },
+    {
+      "id": "sign_aquarius",
+      "title": "Aquarius / 水瓶座",
+      "category": "zodiac_sign",
+      "tags": [
+        "aquarius",
+        "air",
+        "saturn",
+        "uranus",
+        "innovation",
+        "水瓶",
+        "创新"
+      ],
+      "source": "local astrology primer",
+      "text": "Aquarius is a fixed air sign associated with systems, innovation, groups, independence, ideals, and future-facing thinking. Aquarius context asks how personal choices affect a wider network."
+    },
+    {
+      "id": "sign_pisces",
+      "title": "Pisces / 双鱼座",
+      "category": "zodiac_sign",
+      "tags": [
+        "pisces",
+        "water",
+        "jupiter",
+        "neptune",
+        "intuition",
+        "双鱼",
+        "直觉"
+      ],
+      "source": "local astrology primer",
+      "text": "Pisces is a mutable water sign associated with imagination, spirituality, empathy, dreams, and porous boundaries. Pisces context is useful for creative reflection, but needs grounding when emotions blur facts."
+    },
+    {
+      "id": "planet_sun",
+      "title": "Sun Symbolism",
+      "category": "planet",
+      "tags": [
+        "sun",
+        "identity",
+        "purpose",
+        "太阳",
+        "自我"
+      ],
+      "source": "local astrology primer",
+      "text": "The Sun symbolizes identity, vitality, purpose, and the way a person wants to be recognized. In agent responses, Sun sign memory helps personalize tone and motivational advice."
+    },
+    {
+      "id": "planet_moon",
+      "title": "Moon Symbolism",
+      "category": "planet",
+      "tags": [
+        "moon",
+        "emotion",
+        "memory",
+        "needs",
+        "月亮",
+        "情绪"
+      ],
+      "source": "local astrology primer",
+      "text": "The Moon symbolizes emotional needs, habits, memory, family patterns, and the instinctive response to stress. Moon information is especially relevant for questions about feelings, comfort, and private life."
+    },
+    {
+      "id": "planet_mercury",
+      "title": "Mercury Symbolism",
+      "category": "planet",
+      "tags": [
+        "mercury",
+        "communication",
+        "study",
+        "learning",
+        "水星",
+        "学习"
+      ],
+      "source": "local astrology primer",
+      "text": "Mercury symbolizes communication, learning, analysis, trade, writing, and the nervous system. Mercury context is useful for study plans, interviews, messages, and misunderstandings."
+    },
+    {
+      "id": "planet_venus",
+      "title": "Venus Symbolism",
+      "category": "planet",
+      "tags": [
+        "venus",
+        "love",
+        "relationship",
+        "money",
+        "金星",
+        "爱情"
+      ],
+      "source": "local astrology primer",
+      "text": "Venus symbolizes affection, attraction, aesthetics, pleasure, money, and values. Venus context is relevant for relationship questions, design choices, and what feels worth investing in."
+    },
+    {
+      "id": "planet_mars",
+      "title": "Mars Symbolism",
+      "category": "planet",
+      "tags": [
+        "mars",
+        "action",
+        "conflict",
+        "energy",
+        "火星",
+        "行动"
+      ],
+      "source": "local astrology primer",
+      "text": "Mars symbolizes action, assertion, desire, conflict, and physical energy. Mars context helps an agent discuss motivation, courage, anger, and when to act directly."
+    },
+    {
+      "id": "planet_jupiter",
+      "title": "Jupiter Symbolism",
+      "category": "planet",
+      "tags": [
+        "jupiter",
+        "growth",
+        "luck",
+        "belief",
+        "木星",
+        "机会"
+      ],
+      "source": "local astrology primer",
+      "text": "Jupiter symbolizes growth, luck, teaching, belief, generosity, and expansion. Jupiter context supports opportunity framing but should include the risk of overpromising."
+    },
+    {
+      "id": "planet_saturn",
+      "title": "Saturn Symbolism",
+      "category": "planet",
+      "tags": [
+        "saturn",
+        "discipline",
+        "limits",
+        "responsibility",
+        "土星",
+        "压力"
+      ],
+      "source": "local astrology primer",
+      "text": "Saturn symbolizes limits, discipline, responsibility, delay, mastery, and long-term consequences. Saturn context is important for career, exams, deadlines, and serious commitments."
+    },
+    {
+      "id": "moon_new",
+      "title": "New Moon Meaning",
+      "category": "moon_phase",
+      "tags": [
+        "new moon",
+        "beginning",
+        "intention",
+        "新月",
+        "开始"
+      ],
+      "source": "local astrology primer",
+      "text": "A New Moon is commonly interpreted as a beginning, reset, or intention-setting period. In a reflective agent, it can suggest planning a small experiment instead of demanding instant results."
+    },
+    {
+      "id": "moon_full",
+      "title": "Full Moon Meaning",
+      "category": "moon_phase",
+      "tags": [
+        "full moon",
+        "culmination",
+        "emotion",
+        "满月",
+        "结果"
+      ],
+      "source": "local astrology primer",
+      "text": "A Full Moon is often interpreted as a culmination, reveal, or emotional high point. In advice, it can indicate reviewing outcomes, naming feelings clearly, and avoiding impulsive drama."
+    },
+    {
+      "id": "retrograde_mercury",
+      "title": "Mercury Retrograde as Retrieval Context",
+      "category": "transit",
+      "tags": [
+        "mercury retrograde",
+        "review",
+        "delay",
+        "水逆",
+        "复盘"
+      ],
+      "source": "local astrology primer",
+      "text": "Mercury retrograde is commonly used as a symbolic period for reviewing messages, revising plans, backing up files, and slowing assumptions. It should not be treated as a deterministic cause of failure."
+    },
+    {
+      "id": "house_10",
+      "title": "Tenth House: Career and Public Role",
+      "category": "house",
+      "tags": [
+        "tenth house",
+        "career",
+        "reputation",
+        "10th",
+        "事业",
+        "名声"
+      ],
+      "source": "local astrology primer",
+      "text": "The tenth house represents career, public role, reputation, authority, and long-term direction. It is the strongest house context for questions about work, applications, exams, and achievement."
+    },
+    {
+      "id": "house_7",
+      "title": "Seventh House: Partnership",
+      "category": "house",
+      "tags": [
+        "seventh house",
+        "relationship",
+        "partner",
+        "7th",
+        "感情",
+        "合作"
+      ],
+      "source": "local astrology primer",
+      "text": "The seventh house represents one-to-one partnership, negotiation, contracts, and the mirror of other people. It is useful for love, friendship conflict, clients, and collaboration questions."
+    },
+    {
+      "id": "ethics_disclaimer",
+      "title": "Ethical Forecasting Boundary",
+      "category": "ethics",
+      "tags": [
+        "ethics",
+        "disclaimer",
+        "entertainment",
+        "边界",
+        "娱乐"
+      ],
+      "source": "project design note",
+      "text": "Astrology forecasts should be framed as reflective entertainment and narrative coaching, not medical, legal, financial, or scientific prediction. The agent should encourage user agency and avoid fatalistic claims."
+    },
+    {
+      "id": "ir_design",
+      "title": "IR-Augmented Forecasting Pattern",
+      "category": "agent_architecture",
+      "tags": [
+        "retrieval",
+        "memory",
+        "tools",
+        "rag",
+        "检索",
+        "记忆"
+      ],
+      "source": "project design note",
+      "text": "An IR-augmented agent first retrieves user memory, domain knowledge, and time-specific context, then synthesizes an answer. This makes the response more grounded, explainable, and extensible than direct generation."
+    },
+    {
+      "id": "bazi_intro",
+      "title": "BaZi / 八字基础",
+      "category": "bazi",
+      "tags": [
+        "bazi",
+        "八字",
+        "四柱",
+        "出生时间",
+        "命理",
+        "personalization"
+      ],
+      "source": "local Chinese metaphysics primer",
+      "text": "八字，也叫四柱，是一种中国传统命理框架，通常使用出生年、月、日、时来形成四组天干地支。In this project, BaZi is used as reflective cultural knowledge for personalization, not as deterministic prediction."
+    },
+    {
+      "id": "bazi_five_elements",
+      "title": "Five Elements / 五行",
+      "category": "bazi",
+      "tags": [
+        "五行",
+        "wood",
+        "fire",
+        "earth",
+        "metal",
+        "water",
+        "木",
+        "火",
+        "土",
+        "金",
+        "水",
+        "balance"
+      ],
+      "source": "local Chinese metaphysics primer",
+      "text": "五行包括木、火、土、金、水。A reflective reading may treat them as symbolic lenses: Wood for growth, Fire for visibility, Earth for stability, Metal for structure, and Water for learning and adaptation."
+    },
+    {
+      "id": "bazi_ten_heavenly_stems",
+      "title": "Ten Heavenly Stems / 十天干",
+      "category": "bazi",
+      "tags": [
+        "十天干",
+        "天干",
+        "甲",
+        "乙",
+        "丙",
+        "丁",
+        "戊",
+        "己",
+        "庚",
+        "辛",
+        "壬",
+        "癸"
+      ],
+      "source": "local Chinese metaphysics primer",
+      "text": "十天干是甲、乙、丙、丁、戊、己、庚、辛、壬、癸。They are often mapped to yin-yang and five-element qualities, giving a compact vocabulary for personality, timing, and situational analysis."
+    },
+    {
+      "id": "bazi_twelve_earthly_branches",
+      "title": "Twelve Earthly Branches / 十二地支",
+      "category": "bazi",
+      "tags": [
+        "十二地支",
+        "地支",
+        "子",
+        "丑",
+        "寅",
+        "卯",
+        "辰",
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌",
+        "亥",
+        "生肖"
+      ],
+      "source": "local Chinese metaphysics primer",
+      "text": "十二地支是子、丑、寅、卯、辰、巳、午、未、申、酉、戌、亥。They connect traditional time divisions, zodiac animals, seasons, and hidden elements."
+    },
+    {
+      "id": "bazi_day_master",
+      "title": "Day Master / 日主",
+      "category": "bazi",
+      "tags": [
+        "日主",
+        "day master",
+        "日干",
+        "自我",
+        "personality"
+      ],
+      "source": "local Chinese metaphysics primer",
+      "text": "日主通常指日柱的天干，被视为八字分析中代表自我立场的核心符号。For this agent, day master information can personalize tone, but should be explained as symbolic interpretation."
+    },
+    {
+      "id": "bazi_useful_god",
+      "title": "Useful Element / 用神",
+      "category": "bazi",
+      "tags": [
+        "用神",
+        "喜用神",
+        "平衡",
+        "五行平衡",
+        "supportive element"
+      ],
+      "source": "local Chinese metaphysics primer",
+      "text": "用神是八字分析中用于讨论结构平衡的概念，常被解释为对命局有支持作用的元素。In this project, it is treated as a retrieval concept for reflective advice, not a fixed fate rule."
+    },
+    {
+      "id": "bazi_and_astrology_ir",
+      "title": "Combining Astrology and BaZi as IR Context / 中西合参检索",
+      "category": "agent_architecture",
+      "tags": [
+        "八字",
+        "星座",
+        "中西合参",
+        "retrieval",
+        "ir",
+        "context",
+        "检索"
+      ],
+      "source": "project design note",
+      "text": "The agent can combine Western astrology and BaZi by retrieving both knowledge types, then clearly labeling them as different symbolic systems. This demonstrates multi-source information retrieval and context fusion."
+    },
+    {
+      "id": "bazi_ethics",
+      "title": "BaZi Ethical Boundary / 八字伦理边界",
+      "category": "ethics",
+      "tags": [
+        "八字",
+        "伦理",
+        "边界",
+        "娱乐",
+        "not deterministic",
+        "agency"
+      ],
+      "source": "project design note",
+      "text": "八字内容应被表达为文化知识、反思工具或娱乐性叙事，而不是医学、法律、金融决定，也不应宣称可以确定命运。The agent should preserve user agency and avoid fatalistic advice."
+    }
+  ]
+}

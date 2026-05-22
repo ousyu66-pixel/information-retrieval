@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+memory/user_memory.json
+!memory/.gitkeep
