@@ -1,4 +1,4 @@
-"""Command line interface for AstroRAG Agent."""
+"""Command line interface for the Horoscope and BaZi Memory Retrieval Agent."""
 
 from __future__ import annotations
 
@@ -6,11 +6,11 @@ import argparse
 import json
 from typing import Any
 
-from agent import AstroRAGAgent
+from agent import HoroscopeMemoryAgent
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="AstroRAG: an IR-augmented astrology agent")
+    parser = argparse.ArgumentParser(description="Horoscope and BaZi Memory Retrieval Agent")
     parser.add_argument("--ask", help="Ask the agent a question")
     parser.add_argument("--date", help="Target date in YYYY-MM-DD format")
     parser.add_argument("--trace", action="store_true", help="Show tool calls and retrieved context")
@@ -36,8 +36,8 @@ def print_trace(response: Any) -> None:
     print(json.dumps(response.context, ensure_ascii=False, indent=2))
 
 
-def interactive(agent: AstroRAGAgent) -> None:
-    print("AstroRAG Agent. Type 'exit' to quit.")
+def interactive(agent: HoroscopeMemoryAgent) -> None:
+    print("Horoscope and BaZi Memory Retrieval Agent. Type 'exit' to quit.")
     while True:
         question = input("\nAsk> ").strip()
         if question.lower() in {"exit", "quit"}:
@@ -51,7 +51,7 @@ def interactive(agent: AstroRAGAgent) -> None:
 def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
-    agent = AstroRAGAgent()
+    agent = HoroscopeMemoryAgent()
 
     profile_fields = parse_profile(args.profile)
     if profile_fields:

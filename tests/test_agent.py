@@ -9,7 +9,7 @@ import sys
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
-from agent import AstroRAGAgent
+from agent import HoroscopeMemoryAgent
 from retrieval import KnowledgeBase
 
 
@@ -36,7 +36,7 @@ class RetrievalTests(unittest.TestCase):
 class AgentTests(unittest.TestCase):
     def test_agent_runs_without_api_key(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
-            agent = AstroRAGAgent(memory_path=Path(tmp) / "memory.json")
+            agent = HoroscopeMemoryAgent(memory_path=Path(tmp) / "memory.json")
             agent.update_profile(sun_sign="Leo", focus="study")
             response = agent.answer("What should I focus on for study today?", target_date="2026-05-18")
             self.assertFalse(response.used_llm)
@@ -45,7 +45,7 @@ class AgentTests(unittest.TestCase):
 
     def test_agent_extracts_profile_from_chinese_chat(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
-            agent = AstroRAGAgent(memory_path=Path(tmp) / "memory.json")
+            agent = HoroscopeMemoryAgent(memory_path=Path(tmp) / "memory.json")
             response = agent.answer(
                 "我的生日是2001年8月5日，我想关注学习、感情和八字五行。",
                 target_date="2026-05-20",

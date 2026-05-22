@@ -1,6 +1,6 @@
-﻿# AstroRAG Agent
+﻿# Horoscope and BaZi Memory Retrieval Agent
 
-AstroRAG is an information-retrieval augmented astrology agent. It uses a playful horoscope domain to demonstrate a serious agent architecture: memory, local knowledge retrieval, temporal context lookup, tool traces, and OpenAI-compatible answer synthesis.
+The Horoscope and BaZi Memory Retrieval Agent is an information-retrieval augmented personal forecast agent. It uses a playful horoscope domain to demonstrate a serious agent architecture: memory, local knowledge retrieval, temporal context lookup, tool traces, and OpenAI-compatible answer synthesis.
 
 The goal is not to prove astrology. The goal is to show how an AI agent can retrieve context before answering, explain which context it used, and be extended with more IR tools.
 
@@ -47,7 +47,7 @@ No external Python packages are required.
 
 ### Optional API Configuration
 
-AstroRAG calls an OpenAI-compatible `/chat/completions` endpoint when an API key exists.
+The agent calls an OpenAI-compatible `/chat/completions` endpoint when an API key exists.
 
 PowerShell:
 
@@ -102,7 +102,7 @@ This makes the IR process inspectable for the assignment video.
 
 ## How This Fits Information Retrieval
 
-AstroRAG improves context through three retrieval channels:
+The agent improves context through three retrieval channels:
 
 - **Domain IR:** searches astrology concepts, signs, planets, houses, moon phases, and ethical boundaries.
 - **Personal IR:** retrieves user profile and relevant prior interactions.
@@ -113,7 +113,7 @@ The final answer is generated only after the agent builds this context package. 
 
 ## Chinese and BaZi Retrieval
 
-AstroRAG also supports Chinese questions and a small BaZi knowledge base. The BaZi documents cover 八字基础, 五行, 十天干, 十二地支, 日主, 用神, and ethical boundaries. This makes the project a multi-source IR agent: it can retrieve Western astrology context, Chinese metaphysics context, user memory, and temporal context before answering.
+The agent also supports Chinese questions and a small BaZi knowledge base. The BaZi documents cover 八字基础, 五行, 十天干, 十二地支, 日主, 用神, and ethical boundaries. This makes the project a multi-source IR agent: it can retrieve Western astrology context, Chinese metaphysics context, user memory, and temporal context before answering.
 
 Example Chinese demo:
 
@@ -148,5 +148,6 @@ The 30-second terminal demo shows the agent running with the DeepSeek API. It as
 
 ## Safety Boundary
 
-AstroRAG frames astrology as reflective entertainment and narrative coaching. It should not provide medical, legal, financial, or deterministic predictions.
+The agent frames astrology as reflective entertainment and narrative coaching. It should not provide medical, legal, financial, or deterministic predictions.
+
 

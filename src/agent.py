@@ -1,4 +1,4 @@
-"""AstroRAG agent: retrieval planning, tool use, and answer synthesis."""
+"""Horoscope and BaZi agent: retrieval planning, tool use, and answer synthesis."""
 
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ class AgentResponse:
     used_llm: bool
 
 
-class AstroRAGAgent:
+class HoroscopeMemoryAgent:
     """An IR-augmented astrology agent built to make retrieval visible."""
 
     def __init__(
@@ -90,7 +90,7 @@ class AstroRAGAgent:
         if birth_match:
             year, month, day = (int(part) for part in birth_match.groups())
             fields["birth_date"] = f"{year:04d}-{month:02d}-{day:02d}"
-            fields["sun_sign"] = AstroRAGAgent._sun_sign_from_month_day(month, day)
+            fields["sun_sign"] = HoroscopeMemoryAgent._sun_sign_from_month_day(month, day)
 
         sign_aliases = {
             "白羊": "Aries",
@@ -170,7 +170,7 @@ class AstroRAGAgent:
     def _generate_with_llm(question: str, context: dict, config: LLMConfig) -> str:
         client = OpenAICompatibleClient(config)
         system = (
-            "You are AstroRAG, an information-retrieval augmented AI agent. "
+            "You are a Horoscope and BaZi Memory Retrieval Agent. "
             "Use only the provided retrieved context, user memory, and temporal data. "
             "Be clear that astrology is reflective entertainment, not factual prediction. "
             "Cite context by title when useful. End with a short 'Retrieved context used' section."

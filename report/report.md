@@ -1,15 +1,15 @@
-﻿# AstroRAG Agent: An IR-Augmented Personal Forecast Agent
+﻿# Horoscope and BaZi Memory Retrieval Agent
 
 **GitHub repository:** https://github.com/ousyu66-pixel/information-retrieval  
 **Video demo:** https://drive.google.com/file/d/1sMczSJjGHewY6A9Zf-VqF-zYQ5gEJ4tR/view?usp=sharing
 
 ## Introduction
 
-This project implements AstroRAG, an AI agent that uses astrology as a creative domain for studying information retrieval in agent systems. The purpose of the system is not to make deterministic predictions, but to demonstrate how an agent can retrieve useful context before answering. Instead of directly generating a horoscope from a user prompt, AstroRAG builds a context package from domain knowledge, persistent user memory, and date-specific temporal information.
+This project implements the Horoscope and BaZi Memory Retrieval Agent, an AI agent that uses astrology as a creative domain for studying information retrieval in agent systems. The purpose of the system is not to make deterministic predictions, but to demonstrate how an agent can retrieve useful context before answering. Instead of directly generating a horoscope from a user prompt, the agent builds a context package from domain knowledge, persistent user memory, and date-specific temporal information.
 
 ## System Design
 
-AstroRAG is implemented as a command-line Python application with an OpenAI-compatible chat completion interface. The system can run with `OPENAI_API_KEY`, `OPENAI_BASE_URL`, and `OPENAI_MODEL`, but it also has an offline preview mode that displays retrieved context without calling a model. This makes the retrieval behavior easier to inspect.
+The agent is implemented as a command-line Python application with an OpenAI-compatible chat completion interface. The system can run with `OPENAI_API_KEY`, `OPENAI_BASE_URL`, and `OPENAI_MODEL`, but it also has an offline preview mode that displays retrieved context without calling a model. This makes the retrieval behavior easier to inspect.
 
 The agent has three main retrieval channels. First, it searches a local bilingual knowledge base containing Western astrology concepts such as zodiac signs, planets, houses, and moon phases, plus Chinese BaZi concepts such as 八字, 五行, 十天干, 十二地支, 日主, and 用神. The retriever uses a small BM25-style ranking algorithm implemented without external dependencies. Second, it retrieves personal context from a persistent memory file. This memory includes a user profile, prior questions and answers, and a compacted summary when the event log grows. Third, it retrieves temporal context from a structured JSON file of symbolic events for specific dates.
 
@@ -17,7 +17,7 @@ The agent follows a simple tool-use loop: read the user profile, build an enrich
 
 ## Information Retrieval Contribution
 
-The main IR contribution is the combination of different context sources before generation. A normal chatbot might respond from the prompt alone, while AstroRAG explicitly retrieves domain knowledge, user memory, and time-specific data. The domain retrieval is intentionally multi-source: Western astrology and BaZi are treated as separate symbolic knowledge systems and fused only after retrieval. This improves explainability because the answer can include a "Retrieved context used" section. It also improves extensibility: future tools could add web search, document search over user journals, vector embeddings, or a skill router for different reflective practices. The BaZi extension strengthens the novelty of the project because it demonstrates cross-cultural context retrieval rather than a single-domain horoscope generator.
+The main IR contribution is the combination of different context sources before generation. A normal chatbot might respond from the prompt alone, while this agent explicitly retrieves domain knowledge, user memory, and time-specific data. The domain retrieval is intentionally multi-source: Western astrology and BaZi are treated as separate symbolic knowledge systems and fused only after retrieval. This improves explainability because the answer can include a "Retrieved context used" section. It also improves extensibility: future tools could add web search, document search over user journals, vector embeddings, or a skill router for different reflective practices. The BaZi extension strengthens the novelty of the project because it demonstrates cross-cultural context retrieval rather than a single-domain horoscope generator.
 
 The system also includes a small compaction mechanism inspired by agent memory architectures. When the memory event list grows, older important events are compressed into a summary while recent events remain available for retrieval. This is a simplified version of long-context management used in more advanced agents.
 
@@ -38,4 +38,5 @@ Using AI coding assistance was helpful for quickly turning the assignment idea i
 OpenClaw documentation. Concepts including memory, tools, skills, heartbeat, and compaction.  
 Robertson, S. and Zaragoza, H. (2009). The Probabilistic Relevance Framework: BM25 and Beyond.  
 OpenAI API documentation. Chat completion style APIs and OpenAI-compatible model access.
+
 

@@ -1,4 +1,4 @@
-﻿"""Small dependency-free retrieval utilities for the AstroRAG agent."""
+﻿"""Small dependency-free retrieval utilities for the horoscope and BaZi agent."""
 
 from __future__ import annotations
 
@@ -188,5 +188,6 @@ class KnowledgeBase:
         for token in tokens:
             counts[token] = counts.get(token, 0) + 1
         return counts
+
 
 
