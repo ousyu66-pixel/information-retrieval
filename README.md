@@ -132,19 +132,11 @@ The agent will extract `birth_date`, infer the Western sun sign, infer focus top
 
 For grading, the important point is that BaZi is used as a searchable cultural knowledge source, not as a deterministic fortune-telling claim.
 
-## Suggested Video Demo
-
-Record a 2-3 minute video showing:
-
-1. The GitHub repository and README.
-2. Running the profile command.
-3. Asking a question with `--trace`.
-4. Explaining the retrieved knowledge, memory, and temporal context.
-5. Asking a follow-up question to show memory is saved.
+## Video Demo
 
 Video demo: https://drive.google.com/file/d/1sMczSJjGHewY6A9Zf-VqF-zYQ5gEJ4tR/view?usp=sharing
 
-If the video is a terminal-only recording, the report's "Demo Interpretation" section explains how to read the shown `Tool trace` and `Retrieved context` output.
+The 30-second terminal demo shows the agent running with the DeepSeek API. It asks a Chinese question, generates a Chinese answer, and prints the `Tool trace` and `Retrieved context` sections that show profile extraction, memory retrieval, knowledge-base retrieval, temporal context lookup, and forecast saving.
 
 ## Extension Ideas
 
