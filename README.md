@@ -142,7 +142,7 @@ Record a 2-3 minute video showing:
 4. Explaining the retrieved knowledge, memory, and temporal context.
 5. Asking a follow-up question to show memory is saved.
 
-Video link placeholder: `TODO: add video link here`
+Video demo: https://drive.google.com/file/d/1sMczSJjGHewY6A9Zf-VqF-zYQ5gEJ4tR/view?usp=sharing
 
 If the video is a terminal-only recording, the report's "Demo Interpretation" section explains how to read the shown `Tool trace` and `Retrieved context` output.
 

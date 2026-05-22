@@ -1,7 +1,7 @@
 ﻿# AstroRAG Agent: An IR-Augmented Personal Forecast Agent
 
 **GitHub repository:** https://github.com/ousyu66-pixel/information-retrieval  
-**Video demo:** TODO: add video link
+**Video demo:** https://drive.google.com/file/d/1sMczSJjGHewY6A9Zf-VqF-zYQ5gEJ4tR/view?usp=sharing
 
 ## Introduction
 
