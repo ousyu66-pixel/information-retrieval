@@ -31,7 +31,7 @@ The tool `retrieve_user_memory` returns previous related runs from `memory/user_
 
 ## Reflection on Using AI Tools
 
-Using AI coding assistance was helpful for quickly turning the assignment idea into a working architecture. The most useful part was using AI to connect the creative idea, horoscope personalization, to the academic requirement, information retrieval. However, AI-generated code and explanations still require careful checking. I had to make sure the project did not become only a text-generation chatbot, and that the README and implementation clearly showed retrieval, memory, and tool use. The assignment also showed that understanding the architecture matters more than only producing code, because the system must be explainable and extensible.
+I used AI coding tools to help build the overall framework of this project. During the process, I gained a clearer understanding of how an AI agent works in practice: it receives a user request, extracts useful state, calls tools, retrieves context, sends the organized context to a model, and saves useful information back to memory. At the same time, I am aware that there are still parts of the code-level implementation that I do not fully understand yet, especially the details of retrieval scoring, memory management, and API integration. This is something I need to continue studying carefully, because using AI to generate code is not enough; I also need to understand, check, and maintain the system myself.
 
 ## References
 
